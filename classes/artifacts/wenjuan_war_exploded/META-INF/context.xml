@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+<!--  
+<Resource name="jdbc/survey" type="javax.sql.DataSource"
+	driverClassName="com.microsoft.jdbc.sqlserver.SQLServerDriver"
+	url="jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=db_wenjuan"
+	username="sa" password="yanghl" maxActive="200" maxIdle="10" maxWait="-1" /> -->
+	
+	<Resource name="jdbc/survey" type="javax.sql.DataSource"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/db_wenjuan?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf-8&amp;autoReconnect=true"
+	username="root" password="123456" maxActive="200" maxIdle="10" maxWait="-1" />
+</Context>
